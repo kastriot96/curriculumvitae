@@ -1,0 +1,45 @@
+* {
+  margin: 0 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  background-color: rgba(0, 116, 249, 0.919);
+  padding-left: 10px;
+}
+
+.header--p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+
+  flex-basis: 10%;
+}
+.social-links {
+  color: white;
+  background-color: red;
+}
+
+.links {
+  padding-left: 10px;
+
+  display: flex;
+  flex-direction: row;
+  /* list-style-type: none; */
+  /* gap: 5px; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* align-content: flex-start; */
+}
+
+.mail,
+.linkedin,
+.github {
+  text-align: center;
+  width: 30px;
+
+  /* flex: 1; */
+}
