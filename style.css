@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 a {
   color: white;
   font-size: 18px;
@@ -36,7 +41,7 @@ p h2 h3 {
   line-height: 25px;
 }
 .social-links {
-  background-color: #2C2E82;
+  background-image: linear-gradient(to left, #2C2E82 0%, #5659ff 100%);
 }
 
 .links {
@@ -78,6 +83,7 @@ svg {
   border-radius: 10px;
   line-height: 150%;
 }
+
 .experience__header {
   /* background-color: rgb(38, 15, 133);
   height: 100%;
@@ -90,6 +96,7 @@ svg {
 .experience__info {
   padding: 2%;
   border-left: 6px solid #2C2E82;
+  line-height: 1.6rem;
 }
 
 .experience__header--icon {
@@ -158,4 +165,11 @@ section > h1 {
   gap: 0.5rem;
   margin: 40px;
   padding: 40px;
+}
+
+.experience__header--icon >img {
+  position: inherit;
+  width:100px;
+  height:100px;
+  right: 100%;
 }
