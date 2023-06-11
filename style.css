@@ -3,15 +3,18 @@
   box-sizing: border-box;
 }
 
-body {
-  padding-left: 15%;
-  padding-right: 15%;
+body { 
+  background-color: white;
 }
 
 a {
   color: white;
   font-size: 18px;
   margin-left: 5px;
+}
+
+ul {
+  border-color: white;
 }
 
 section {
@@ -96,7 +99,7 @@ svg {
 .experience__info {
   padding: 2%;
   border-left: 6px solid #2C2E82;
-  line-height: 1.6rem;
+  line-height: 2.5rem;
 }
 
 .experience__header--icon {
@@ -104,8 +107,11 @@ svg {
 }
 
 .experience__header--icon > svg {
-  width: 50%;
-  height: 50%;
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  width: 100%;
+  right: 40%;
 }
 
 .skill-card {
@@ -165,11 +171,13 @@ section > h1 {
   gap: 0.5rem;
   margin: 40px;
   padding: 40px;
+  border-color: white;
 }
 
 .experience__header--icon >img {
-  position: inherit;
-  width:100px;
-  height:100px;
-  right: 100%;
+  position: relative;
+  width: 7rem;
+  height: 10rem;
+  right: 50%;
+  width: 100%;
 }
